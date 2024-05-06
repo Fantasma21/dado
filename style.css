@@ -1,0 +1,35 @@
+
+
+#botaoJogar {
+    background-color: #20a824; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    padding: 8px 19px; /* Espaçamento interno */
+    font-size: 18px; /* Tamanho da fonte */
+    border: none; /* Remove a borda padrão */
+    cursor: pointer; /* Altera o cursor ao passar por cima */
+    border-radius: 19px; /* Borda arredondada */
+}
+
+#botaoJogar:hover {
+    background-color: #13cc1c; /* Cor de fundo ao passar o mouse por cima */
+}
+
+#dd {
+    text-align: center;
+}
+
+#fc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 100px;
+}
+
+#bt {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#face {
+    max-width: 100%; /* Garante que a imagem se ajuste ao contêiner */
+}
